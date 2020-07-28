@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">我的企鹅</string>
+    <string name="textContent">安卓开发</string>
+    <string name="loginBtn">登录</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyPenguin</string>
+    <string name="textContent">Android Development</string>
+    <string name="loginBtn">Login</string>
+</resources>
