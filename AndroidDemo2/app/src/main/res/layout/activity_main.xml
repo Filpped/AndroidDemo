@@ -3,15 +3,91 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="200dp"
+    android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity"
-    android:layout_gravity="center">
+    >
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_weight="1.5">-->
+<!--        <ImageView-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@mipmap/jk"-->
+<!--            android:layout_weight="1"-->
+<!--            tools:ignore="NestedWeights">-->
+
+<!--        </ImageView>-->
+<!--        <TextView-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="3"-->
+<!--            android:text="假装有一个输入框"-->
+<!--            android:textSize="20dp"-->
+<!--            android:gravity="center">-->
+<!--        </TextView>-->
+<!--        <ImageView-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:src="@mipmap/v">-->
+<!--        </ImageView>-->
+
+<!--        <ImageView-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:src="@mipmap/sl">-->
+<!--        </ImageView>-->
+
+<!--        <ImageView-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:src="@mipmap/bjx">-->
+<!--        </ImageView>-->
+
+
+<!--    </LinearLayout>-->
+    <LinearLayout
+        android:id="@+id/Linearimg"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="0dp"
+        android:layout_weight="5">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            app:riv_corner_radius="10dp"
+            android:layout_marginTop="5dp"
+            android:src="@mipmap/banner"
+            tools:ignore="NestedWeights">
+
+        </com.makeramen.roundedimageview.RoundedImageView>
+<!--        <ImageView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:src="@mipmap/pic4">-->
+
+<!--        </ImageView>-->
+
+    </LinearLayout>
+
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:orientation="horizontal"
-        android:layout_weight="1">
+        android:layout_marginTop="10dp"
+        android:layout_weight="4.4"
+        android:id="@+id/line2">
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -48,7 +124,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="1dp"
-                android:text="美食">
+                android:text="DOTA">
             </TextView>
 
         </LinearLayout>
@@ -68,7 +144,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="1dp"
-                android:text="美食">
+                android:text="交友">
             </TextView>
 
         </LinearLayout>
@@ -81,14 +157,14 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@mipmap/fire">
+                android:src="@mipmap/jk">
 
             </ImageView>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="1dp"
-                android:text="美食">
+                android:text="文化">
             </TextView>
 
         </LinearLayout>
@@ -108,7 +184,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="1dp"
-                android:text="美食">
+                android:text="LOL">
             </TextView>
 
         </LinearLayout>
@@ -119,7 +195,8 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:orientation="horizontal"
-        android:layout_weight="1">
+        android:layout_marginTop="10dp"
+        android:layout_weight="4.4">
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -136,7 +213,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="1dp"
-                android:text="美食">
+                android:text="绝地求生">
             </TextView>
 
         </LinearLayout>
@@ -156,7 +233,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="1dp"
-                android:text="美食">
+                android:text="王者荣耀">
             </TextView>
 
         </LinearLayout>
@@ -176,7 +253,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="1dp"
-                android:text="美食">
+                android:text="DNF">
             </TextView>
 
         </LinearLayout>
@@ -196,7 +273,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="1dp"
-                android:text="美食">
+                android:text="主机游戏">
             </TextView>
 
         </LinearLayout>
@@ -216,12 +293,281 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="1dp"
-                android:text="美食">
+                android:text="更多">
             </TextView>
 
         </LinearLayout>
     </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.2"
+        android:layout_marginTop="10dp">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="0.5"
+            android:src="@mipmap/al">
 
+        </ImageView>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:layout_marginLeft="5dp"
+            android:text="决斗宝贝，激然上线！"
+            android:textSize="20dp"
+            android:gravity="center_vertical">
+        </TextView>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="查看"
+            android:textSize="20dp"
+            
+            android:textColor="#D8860C">
 
+        </Button>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_weight="1.5">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@mipmap/fire">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:gravity="center_vertical"
+            android:text="猜你喜欢"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="25dp">
+
+        </TextView>
+
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/Rel1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="bottom"
+        android:layout_weight="14"
+        android:gravity="center">
+
+        <RelativeLayout
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_alignStart="@+id/Rel1"
+            android:layout_alignLeft="@+id/Rel1"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginLeft="-70dp"
+            android:layout_marginTop="5dp"
+            tools:ignore="NotSibling">
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/pic1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:riv_corner_radius="10dp"
+                android:src="@mipmap/pic1">
+            </com.makeramen.roundedimageview.RoundedImageView>
+            <TextView
+                android:layout_alignBottom="@+id/pic1"
+                android:layout_alignLeft="@+id/pic1"
+                android:layout_marginLeft="15dp"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:text="荒野打野"
+                android:layout_alignStart="@+id/pic1"
+                android:layout_marginStart="15dp">
+
+            </TextView>
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_alignRight="@id/pic1"
+                android:layout_marginRight="15dp"
+                android:layout_alignBottom="@id/pic1"
+                android:text="4.5万"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:layout_alignEnd="@id/pic1"
+                android:layout_marginEnd="15dp">
+
+            </TextView>
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="105dp"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="你在教我做事情?"
+            android:textColor="#000">
+        </TextView>
+
+        <RelativeLayout
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="-10dp"
+            android:layout_marginRight="197dp"
+            tools:ignore="NotSibling">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/pic2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/pic2"
+                app:riv_corner_radius="10dp">
+
+            </com.makeramen.roundedimageview.RoundedImageView>
+            <TextView
+                android:layout_alignBottom="@+id/pic2"
+                android:layout_alignLeft="@+id/pic2"
+                android:layout_marginLeft="15dp"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:text="逆天输出">
+
+            </TextView>
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_alignRight="@id/pic2"
+                android:layout_marginRight="13dp"
+                android:layout_alignBottom="@id/pic2"
+                android:text="3.1万"
+                android:textSize="20dp"
+                android:textColor="#fff">
+
+            </TextView>
+        </RelativeLayout>
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="105dp"
+            android:layout_marginLeft="200dp"
+            android:textSize="20sp"
+            android:gravity="start"
+            android:text="【德哥】直播间"
+            android:textColor="#000">
+        </TextView>
+
+        <RelativeLayout
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="145dp"
+            android:layout_marginEnd="-15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            tools:ignore="NotSibling">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/pic3"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/pic2"
+                app:riv_corner_radius="10dp">
+
+            </com.makeramen.roundedimageview.RoundedImageView>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_alignLeft="@+id/pic3"
+                android:layout_alignBottom="@+id/pic3"
+                android:layout_marginLeft="15dp"
+                android:text="河图tu"
+                android:textColor="#fff"
+                android:textSize="20dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_alignRight="@id/pic3"
+                android:layout_alignBottom="@id/pic3"
+                android:layout_marginRight="13dp"
+                android:text="2.1万"
+                android:textColor="#fff"
+                android:textSize="20dp">
+
+            </TextView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="150dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginLeft="-70dp"
+            tools:ignore="NotSibling">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/pic4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/pic4"
+                app:riv_corner_radius="10dp">
+
+            </com.makeramen.roundedimageview.RoundedImageView>
+            <TextView
+                android:layout_alignBottom="@+id/pic4"
+                android:layout_alignLeft="@+id/pic4"
+                android:layout_marginLeft="15dp"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:text="张大仙儿~">
+
+            </TextView>
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_alignRight="@id/pic4"
+                android:layout_marginRight="15dp"
+                android:layout_alignBottom="@id/pic4"
+                android:text="8.4万"
+                android:textSize="20dp"
+                android:textColor="#fff">
+
+            </TextView>
+        </RelativeLayout>
+    </RelativeLayout>
 
 </LinearLayout>
+
+
