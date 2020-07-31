@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="mcontainer" type="id"/>
+    <item name="mimage" type="id"/>
+    <item name="mtitle" type="id"/>
+</resources>
