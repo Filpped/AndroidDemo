@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:tag="7"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/mconstraintLayout"
+        android:layout_width="406dp"
+        android:layout_height="380dp"
+        android:layout_marginTop="300dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:id="@+id/line12"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line_land"
+            android:visibility="invisible"
+            android:tag="12"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView1"
+            app:layout_constraintEnd_toStartOf="@+id/imageView2"
+            app:layout_constraintStart_toEndOf="@+id/imageView1"
+            app:layout_constraintTop_toTopOf="@+id/imageView1" />
+
+        <ImageView
+            android:id="@+id/line23"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line_land"
+            android:tag="23"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+            app:layout_constraintEnd_toStartOf="@+id/imageView3"
+            app:layout_constraintTop_toTopOf="@+id/imageView3" />
+
+        <ImageView
+            android:id="@+id/line45"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:tag="45"
+            android:src="@drawable/line_land"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+            app:layout_constraintEnd_toStartOf="@+id/imageView5"
+            app:layout_constraintTop_toTopOf="@+id/imageView4" />
+
+        <ImageView
+            android:id="@+id/line56"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:tag="56"
+            android:src="@drawable/line_land"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView6"
+            app:layout_constraintEnd_toStartOf="@+id/imageView6"
+            app:layout_constraintTop_toTopOf="@+id/imageView6" />
+
+        <ImageView
+            android:id="@+id/line78"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line_land"
+            android:visibility="invisible"
+            android:tag="78"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+            app:layout_constraintEnd_toStartOf="@+id/imageView8"
+            app:layout_constraintTop_toTopOf="@+id/imageView7" />
+
+        <ImageView
+            android:id="@+id/line89"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:tag="89"
+            android:src="@drawable/line_land"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView9"
+            app:layout_constraintEnd_toStartOf="@+id/imageView9"
+            app:layout_constraintTop_toTopOf="@+id/imageView9" />
+
+        <ImageView
+            android:id="@+id/line14"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:src="@drawable/line_potrot"
+            android:tag="14"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toTopOf="@+id/imageView4"
+            app:layout_constraintEnd_toStartOf="@+id/line12"
+            app:layout_constraintStart_toStartOf="@+id/imageView1" />
+
+        <ImageView
+            android:id="@+id/line25"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:tag="25"
+            android:src="@drawable/line_potrot"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toTopOf="@+id/imageView5"
+            app:layout_constraintEnd_toStartOf="@+id/line23"
+            app:layout_constraintStart_toEndOf="@+id/line12" />
+
+        <ImageView
+            android:id="@+id/line36"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:tag="36"
+            android:src="@drawable/line_potrot"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toTopOf="@+id/imageView6"
+            app:layout_constraintEnd_toEndOf="@+id/imageView3"
+            app:layout_constraintStart_toEndOf="@+id/line23" />
+
+        <ImageView
+            android:id="@+id/line47"
+            android:layout_width="wrap_content"
+            android:tag="47"
+            android:layout_height="50dp"
+            android:src="@drawable/line_potrot"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toTopOf="@+id/imageView7"
+            app:layout_constraintEnd_toStartOf="@+id/line45"
+            app:layout_constraintStart_toStartOf="@+id/imageView4" />
+
+        <ImageView
+            android:id="@+id/line58"
+            android:layout_width="wrap_content"
+            android:tag="58"
+            android:layout_height="50dp"
+            android:src="@drawable/line_potrot"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toTopOf="@+id/imageView8"
+            app:layout_constraintEnd_toStartOf="@+id/line56"
+            app:layout_constraintStart_toEndOf="@+id/line45" />
+
+        <ImageView
+            android:id="@+id/line69"
+            android:layout_width="wrap_content"
+            android:tag="69"
+            android:layout_height="50dp"
+            android:src="@drawable/line_potrot"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toTopOf="@+id/imageView9"
+            app:layout_constraintEnd_toEndOf="@+id/imageView9"
+            app:layout_constraintStart_toEndOf="@+id/line89" />
+
+        <ImageView
+            android:id="@+id/line24"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:tag="24"
+            android:visibility="invisible"
+            android:src="@drawable/line_left_splash"
+            app:layout_constraintBottom_toTopOf="@+id/line45"
+            app:layout_constraintEnd_toStartOf="@+id/line25"
+            app:layout_constraintStart_toEndOf="@+id/line14"
+            app:layout_constraintTop_toBottomOf="@+id/line12" />
+
+        <ImageView
+            android:id="@+id/line35"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:tag="35"
+            android:visibility="invisible"
+            android:src="@drawable/line_left_splash"
+            app:layout_constraintBottom_toTopOf="@+id/line56"
+            app:layout_constraintEnd_toStartOf="@+id/line36"
+            app:layout_constraintStart_toEndOf="@+id/line25" />
+
+        <ImageView
+            android:id="@+id/line57"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:tag="57"
+            android:src="@drawable/line_left_splash"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toTopOf="@+id/line78"
+            app:layout_constraintEnd_toStartOf="@+id/line58"
+            app:layout_constraintStart_toEndOf="@+id/line47" />
+
+        <ImageView
+            android:id="@+id/line68"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:tag="68"
+            android:visibility="invisible"
+            android:src="@drawable/line_left_splash"
+            app:layout_constraintBottom_toTopOf="@+id/line89"
+            app:layout_constraintEnd_toStartOf="@+id/line69"
+            app:layout_constraintStart_toEndOf="@+id/line58" />
+
+        <ImageView
+            android:id="@+id/line15"
+            android:layout_width="80dp"
+            android:tag="15"
+            android:layout_height="80dp"
+            android:visibility="invisible"
+            android:src="@drawable/line_right_splash"
+            app:layout_constraintBottom_toTopOf="@+id/line45"
+            app:layout_constraintEnd_toEndOf="@+id/line24"
+            app:layout_constraintStart_toStartOf="@+id/line24" />
+
+        <ImageView
+            android:id="@+id/line26"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:tag="26"
+            android:visibility="invisible"
+            android:src="@drawable/line_right_splash"
+            app:layout_constraintBottom_toTopOf="@+id/line56"
+            app:layout_constraintEnd_toStartOf="@+id/line36"
+            app:layout_constraintStart_toEndOf="@+id/line25" />
+
+        <ImageView
+            android:id="@+id/line48"
+            android:layout_width="80dp"
+            android:tag="48"
+            android:layout_height="80dp"
+            android:visibility="invisible"
+            android:src="@drawable/line_right_splash"
+            app:layout_constraintBottom_toTopOf="@+id/line78"
+            app:layout_constraintEnd_toStartOf="@+id/line58"
+            app:layout_constraintStart_toEndOf="@+id/line47" />
+
+        <ImageView
+            android:id="@+id/line59"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:tag="59"
+            android:visibility="invisible"
+            android:src="@drawable/line_right_splash"
+            app:layout_constraintBottom_toTopOf="@+id/line89"
+            app:layout_constraintEnd_toStartOf="@+id/line69"
+            app:layout_constraintStart_toEndOf="@+id/line58" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/circle_normal"
+            android:tag="1"
+            app:layout_constraintEnd_toStartOf="@+id/imageView2"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintHorizontal_chainStyle="spread_inside"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/circle_normal"
+            android:tag="3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/imageView2"
+            app:layout_constraintTop_toTopOf="@+id/imageView1"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/circle_normal"
+            android:tag="7"
+            app:layout_constraintEnd_toStartOf="@+id/imageView8"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintHorizontal_chainStyle="spread_inside"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/circle_normal"
+            android:tag="8"
+            app:layout_constraintEnd_toStartOf="@+id/imageView9"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/imageView7"
+            app:layout_constraintTop_toTopOf="@+id/imageView7"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/circle_normal"
+            android:tag="4"
+            app:layout_constraintEnd_toStartOf="@+id/imageView5"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintHorizontal_chainStyle="spread_inside"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView1"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/circle_normal"
+            android:tag="2"
+            app:layout_constraintEnd_toStartOf="@+id/imageView3"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/imageView1"
+            app:layout_constraintTop_toTopOf="@+id/imageView1"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/circle_normal"
+            android:tag="5"
+            app:layout_constraintEnd_toStartOf="@+id/imageView6"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/imageView4"
+            app:layout_constraintTop_toTopOf="@+id/imageView4"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/circle_normal"
+            android:tag="9"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/imageView8"
+            app:layout_constraintTop_toTopOf="@+id/imageView7"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/circle_normal"
+            android:tag="6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/imageView5"
+            app:layout_constraintTop_toTopOf="@+id/imageView4"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/sdot2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/circle_selected"
+            android:tag="2"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+            app:layout_constraintEnd_toEndOf="@+id/imageView2" />
+
+        <ImageView
+            android:id="@+id/sdot8"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/circle_selected"
+            android:tag="8"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView8"
+            app:layout_constraintEnd_toEndOf="@+id/imageView8" />
+
+        <ImageView
+            android:id="@+id/sdot7"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/circle_selected"
+            android:tag="7"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+            app:layout_constraintEnd_toEndOf="@+id/imageView7" />
+
+        <ImageView
+            android:id="@+id/sdot3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/circle_selected"
+            android:tag="3"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+            app:layout_constraintEnd_toEndOf="@+id/imageView3"
+            app:layout_constraintStart_toStartOf="@+id/imageView3" />
+
+        <ImageView
+            android:id="@+id/sdot9"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/circle_selected"
+            android:tag="9"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView9"
+            app:layout_constraintEnd_toEndOf="@+id/imageView9" />
+
+        <ImageView
+            android:id="@+id/sdot5"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/circle_selected"
+            android:tag="5"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView5"
+            app:layout_constraintEnd_toEndOf="@+id/imageView5" />
+
+        <ImageView
+            android:id="@+id/sdot4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/circle_selected"
+            android:tag="4"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+            app:layout_constraintEnd_toEndOf="@+id/imageView4" />
+
+        <ImageView
+            android:id="@+id/sdot6"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/circle_selected"
+            android:tag="6"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView6"
+            app:layout_constraintEnd_toEndOf="@+id/imageView6" />
+
+        <ImageView
+            android:id="@+id/sdot1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/circle_selected"
+            android:tag="1"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView1"
+            app:layout_constraintStart_toStartOf="@+id/imageView1" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageView10"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/people"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#fff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="15083418913"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+
+    <TextView
+        android:id="@+id/mPoints"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="请设置密码图案:"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/mconstraintLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+</androidx.constraintlayout.widget.ConstraintLayout>
